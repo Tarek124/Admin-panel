@@ -84,7 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .colOneItems2 {
@@ -94,7 +94,7 @@
     color: #939393;
     text-align: center;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -110,7 +110,7 @@
     flex-shrink: 0;
     color: #939393;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -444,4 +444,17 @@
     font-weight: 600;
     line-height: normal;
     margin: .5rem 0;
+}
+
+#copy {
+    width: 50px;
+    height: 27px;
+    background: rgba(135, 6, 255, 0.164);
+    padding: 6px 11px;
+    font-size: 10px;
+    border-radius: 15px;
+    position: absolute;
+    right: 41.5%;
+    top: 67%;
+    display: none;
 }
