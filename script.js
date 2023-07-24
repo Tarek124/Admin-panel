@@ -39,5 +39,5 @@ document.getElementById("copy-img").addEventListener("click", function () {
     function display() {
         document.getElementById("copy").style.display = "none"
     }
-    setTimeout(display, 200)
+    setTimeout(display, 500)
 })
